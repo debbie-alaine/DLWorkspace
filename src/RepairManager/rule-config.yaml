@@ -9,5 +9,6 @@ rules:
 wait_time: 10
 
 # prometheus
-prometheus_url: 'http://localhost:9091/prometheus'
+# TODO: master url?
+#prometheus_url: 'http://{{cnf["prometheus"]["host"]}}:9091/prometheus'
 
